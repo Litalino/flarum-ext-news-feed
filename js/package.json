@@ -14,7 +14,7 @@
     "flarum-webpack-config": "^2.0.0",
     "webpack": "^5.89.0",
     "webpack-cli": "^5.1.4",
-    "@flarum/prettier-config": "2.0.0"
+    "@flarum/prettier-config": "^1.0.0"
   },
   "scripts": {
     "dev": "webpack --mode development --watch",
