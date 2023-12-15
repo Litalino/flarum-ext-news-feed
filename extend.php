@@ -26,4 +26,5 @@ return [
     new Extend\Locales(__DIR__.'/resources/locale'),
     (new Extend\Settings)
         ->serializeToForum('FeedUrl', 'litalino-news-feed.FeedUrl'),
+        ->serializeToForum('byCopy', 'litalino-news-feed.byCopy'),
 ];

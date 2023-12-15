@@ -18,6 +18,7 @@ app.initializers.add('litalino/flarum-ext-news-feed', () => {
   extend(IndexPage.prototype, 'view', function (vdom) {
     if (vdom.children && vdom.children.splice) {
       //const insert = m('div', { className: 'NewsFeed', id: 'divRss' });
+      const byCopy = app.forum.attribute('byCopy');
       const insert = m('div', { class: 'NewsFeed', id: 'divRss' }, [
         m('span', { class: 'NewsFeed_ul' }, [
           m('i', { class: 'fas fa-dove' }),
@@ -55,7 +56,7 @@ extend(IndexPage.prototype, 'oncreate', function () {
     // default: true
     // valid values: false, true
     support: false,
-    
+
     // outer template for the html transformation
     // default: "<ul>{entries}</ul>"
     // valid values: any string
@@ -95,7 +96,7 @@ extend(IndexPage.prototype, 'oncreate', function () {
         });
       }
   });
-  
+
   rss
   // Trình quan sát được kích hoạt sau khi nhận được dữ liệu nhưng trước khi hiển thị.
   /*.on('data', (data) => {
@@ -105,7 +106,7 @@ extend(IndexPage.prototype, 'oncreate', function () {
   })*/
   .render()
   .then(
-    
+
         // A callback, which gets triggered when every entry was loaded and rendered successfully
         () => {},
         // Lệnh gọi lại, được kích hoạt khi xảy ra lỗi

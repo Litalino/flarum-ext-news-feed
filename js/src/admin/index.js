@@ -19,4 +19,12 @@ app.initializers.add('litalino/flarum-ext-news-feed', () => {
     help: app.translator.trans('flarum-ext-news-feed.admin.feedurldesc'),
     placeholder: 'Url of your Rss Feed',
   });
+  app.extensionData.for('litalino-guestengagement').registerSetting({
+    setting: 'litalino-news-feed.byCopy',
+    name: 'byCopy',
+    type: 'text',
+    label: app.translator.trans('flarum-ext-guestengagement.admin.byCopy'),
+    help: app.translator.trans('flarum-ext-guestengagement.admin.byCopy'),
+    placeholder: 'by Copyright...',
+  });
 });
