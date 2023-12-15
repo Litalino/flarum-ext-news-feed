@@ -12,7 +12,6 @@ import { extend } from 'flarum/common/extend';
 import IndexPage from 'flarum/forum/components/IndexPage';
 import RSS from 'vanilla-rss';
 import app from 'flarum/app';
-//import humanTime from 'flarum/common/helpers/humanTime';
 
 app.initializers.add('litalino/flarum-ext-news-feed', () => {
   extend(IndexPage.prototype, 'view', function (vdom) {
@@ -22,7 +21,7 @@ app.initializers.add('litalino/flarum-ext-news-feed', () => {
       const insert = m('div', { class: 'NewsFeed', id: 'divRss' }, [
         m('span', { class: 'NewsFeed_ul' }, [
           m('i', { class: 'fas fa-dove' }),
-          'News Feed' + byCopy + '',
+          'News Feed ' + byCopy + '',
         ]),
       ]);
       vdom.children.splice(1, 0, insert);

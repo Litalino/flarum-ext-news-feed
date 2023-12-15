@@ -19,7 +19,7 @@ app.initializers.add('litalino/flarum-ext-news-feed', () => {
     help: app.translator.trans('flarum-ext-news-feed.admin.feedurldesc'),
     placeholder: 'Url of your Rss Feed',
   });
-  app.extensionData.for('litalino-guestengagement').registerSetting({
+  app.extensionData.for('litalino-news-feed').registerSetting({
     setting: 'litalino-news-feed.byCopy',
     name: 'byCopy',
     type: 'text',

@@ -25,6 +25,6 @@ return [
         ->css(__DIR__.'/resources/less/admin.less'),
     new Extend\Locales(__DIR__.'/resources/locale'),
     (new Extend\Settings)
-        ->serializeToForum('FeedUrl', 'litalino-news-feed.FeedUrl'),
+        ->serializeToForum('FeedUrl', 'litalino-news-feed.FeedUrl')
         ->serializeToForum('byCopy', 'litalino-news-feed.byCopy'),
 ];
