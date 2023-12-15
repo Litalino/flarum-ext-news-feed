@@ -2,5 +2,6 @@ flarum-ext-news-feed:
   admin:
     feedutltitle: Rss Feed URL
     feedurldesc: paste here a valid URL of your Rss feed
+    bycopytitle: Copyright by
+    bycopydesc: paste here a valid of by Copyright
   forum:
-

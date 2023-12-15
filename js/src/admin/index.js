@@ -23,8 +23,8 @@ app.initializers.add('litalino/flarum-ext-news-feed', () => {
     setting: 'litalino-news-feed.byCopy',
     name: 'byCopy',
     type: 'text',
-    label: app.translator.trans('flarum-ext-guestengagement.admin.byCopy'),
-    help: app.translator.trans('flarum-ext-guestengagement.admin.byCopy'),
+    label: app.translator.trans('flarum-ext-news-feed.admin.bycopytitle'),
+    help: app.translator.trans('flarum-ext-news-feed.admin.bycopydesc'),
     placeholder: 'by Copyright...',
   });
 });
