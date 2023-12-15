@@ -1,7 +1,8 @@
 ![news-feed](https://github.com/Litalino/flarum-ext-news-feed/assets/99712477/ff25e7dc-a523-436e-950e-d116778ca355)
 
+![news-feed-ad](https://github.com/Litalino/flarum-ext-news-feed/assets/99712477/f724df5b-adc7-4a06-886d-eba76aed5b57)
 
-![23](https://user-images.githubusercontent.com/79002016/118001364-f7b74d80-b346-11eb-806f-362bd84f9498.png)
+
 # NewsFeed
 
 ![License](https://img.shields.io/badge/license-MIT-blue.svg) [![Latest Stable Version](https://img.shields.io/packagist/v/litalino/flarum-ext-news-feed.svg)](https://packagist.org/packages/litalino/flarum-ext-news-feed) [![Total Downloads](https://img.shields.io/packagist/dt/litalino/flarum-ext-news-feed.svg)](https://packagist.org/packages/litalino/flarum-ext-news-feed)
