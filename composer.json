@@ -1,0 +1,65 @@
+{
+  "name": "litalino/flarum-ext-news-feed",
+  "description": "Add a Box that retrieve latest article from a RSS feed",
+  "keywords": [
+    "flarum", "flarum extension", "ress", "feed", "forum"
+  ],
+  "type": "flarum-extension",
+  "license": "MIT",
+  "require": {
+    "flarum/core": "^1.0"
+  },
+  "require-dev": {
+    "flarum/testing": "^1.0"
+  },
+  "homepage": "https://khatvongsong.vn",
+  "support": {
+    "issues": "https://github.com/litalino/flarum-ext-news-feed/issues",
+    "source": "https://github.com/litalino/flarum-ext-news-feed",
+    "forum": "https://discuss.flarum.org/"
+  },
+  "authors": [
+    {
+      "name": "litalino",
+      "email": "info@khatvongsong.vn",
+      "role": "Co-development",
+      "homepage": "https://khatvongsong.vn"
+    },
+    {
+      "name": "Marco Colia",
+      "email": "info@flarum.it",
+      "role": "Developer"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Litalino\\NewsFeed\\": "src/"
+    }
+  },
+  "extra": {
+    "flarum-extension": {
+      "title": "News Feed",
+      "category": "",
+      "icon": {
+        "name": "fas fa-rss-square",
+        "backgroundColor": "green",
+        "color": "white"
+      }
+    },
+    "flagrow": {
+      "discuss": ""
+    }
+  },
+  "require-dev": {
+      "flarum/phpstan": "*"
+  },
+  "scripts": {
+      "analyse:phpstan": "phpstan analyse",
+      "clear-cache:phpstan": "phpstan clear-result-cache"
+  },
+  "scripts-descriptions": {
+      "analyse:phpstan": "Run static analysis"
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
+}

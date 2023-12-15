@@ -1,0 +1,197 @@
+div#divRss {
+    /*
+    & .NewsFeed_ul {
+      z-index: 1;
+      position: fixed;
+      top: 30%;
+      left: 0%;
+      width: 200px;
+      //display: flex;
+      flex-direction: column;
+  
+      
+      transform: translate(-160px, 0px);
+      border-radius: 0px 50px 50px 0px;
+      text-align: right;
+      margin: 2px;
+      text-decoration: none;
+      padding: 10px;
+      font-size: 15px;
+      font-family: 'Oswald',sans-serif;
+      transition: all .8s;
+      background-color: red;
+      color: #FFF;
+      cursor: pointer;
+  
+      & i {
+        background-color: #FFF;
+        height: 20px;
+        width: 20px;
+        color: red;
+        text-align: center;
+        line-height: 20px;
+        border-radius: 50%;
+        margin-left: 25px;
+        transition: all .5s;
+      }
+        
+      &:hover {
+        color: #FFF;
+        transform: translate(0px, 0px);
+      }
+    }
+  
+    
+    &:hover {
+      .feed-container:hover {
+        display: block;
+      }
+    }
+  
+    .feed-container {
+      z-index: 1;
+      position: fixed;
+      top: 35%;
+      left: 0%;
+      margin: 0 auto;
+      margin-top: 15px;
+      //display: flex;
+      display: none;
+      //display: block;
+      width: 100%;
+      border-radius: 4px;
+      background: #fff;
+      box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+      transition: .3s transform cubic-bezier(.155, 1.105, .295, 1.12),.3s box-shadow,.3s -webkit-transform cubic-bezier(.155, 1.105, .295, 1.12);
+      padding: 14px 20px 18px 20px;
+    
+      > li.licss {
+        list-style-type: none;
+        padding: 8px;
+        
+        a.titleFeed {
+          color: #ff7a00;
+          font-size: var(--font-size-title);
+        }
+        
+        a.titleFeed::before {
+          //font-family: "Font Awesome 5 Free";
+          //content: "\f30b";
+          color: #ff7a00;
+          display: inline-block;
+          padding-right: 3px;
+          vertical-align: middle;
+          font-weight: 900;
+        }
+    
+        img {
+          float: left;
+          margin-right: 10px;
+          display: inline-flex;
+          align-items: center;
+          justify-content: center;
+          box-sizing: content-box;
+          color: #fff;
+          vertical-align: top;
+          background-color: var(--avatar-bg);
+          font-weight: normal;
+          --size: 48px;
+          width: var(--size);
+          height: var(--size);
+          border-radius: 100%;
+        }
+        i {
+          font-size: var(--font-size-footer);
+          color: var(--muted-more-color);
+        }
+    
+      }
+    }
+    */
+    position: fixed;
+    z-index: 10;
+    left: 0;
+    top: 20%;
+    height: 20px;
+    width: 30px;
+    //background: #fff;
+    //border-right: 1px solid #ddd;
+    //transition: all .3s ease-in-out;
+    overflow: hidden;
+  
+      //transform: translate(-160px, 0px);
+      //border-radius: 0px 50px 50px 0px;
+      //text-align: left;
+      margin: 0px;
+      text-decoration: none;
+      padding: 0px;
+      font-size: 15px;
+      font-family: 'Oswald',sans-serif;
+      //transition: all .8s;
+      //background-color: red;
+      //color: #FFF;
+      cursor: pointer;
+  
+    .NewsFeed_ul {
+      font-weight: 600;
+      text-decoration: underline;
+  
+      i {
+        background-color: #FFF;
+        height: 20px;
+        width: 20px;
+        color: red;
+        text-align: center;
+        line-height: 20px;
+        border-radius: 50%;
+        margin-left: 5px;
+        margin-right: 5px;
+        transition: all .5s;
+      }
+    }
+  
+    &:hover {
+      max-width: 460px;
+      width: 100%;
+      height: auto;
+      padding: 10px;
+      transform: translate(0px, 0px);
+      background: var(--body-bg);
+      //border-right: 1px solid var(--control-bg);
+      border-style: ridge;
+    }
+  
+    li {
+      margin: 0;
+      padding: 0 0 10px 0;
+      a {
+        color: var(--text-color);
+        font-size: var(--font-size-title);
+      }
+  
+      a:hover {
+        color: var(--link-color);
+      }
+  
+      i {
+        font-size: var(--font-size-footer);
+        color: var(--muted-more-color);
+      }
+    }
+  
+    
+  
+  }
+  
+  
+  @media screen and (max-width: 900px) {
+    .feed-container{
+      //display: none;
+    }
+  }
+  
+  body when (@config-dark-mode = true) {
+    .feed-container {
+      background: #1a212a;
+    }
+  }
