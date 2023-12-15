@@ -48,6 +48,22 @@
     },
     "flagrow": {
       "discuss": ""
+    },
+    "flarum-cli": {
+        "modules": {
+            "admin": true,
+            "forum": true,
+            "js": true,
+            "jsCommon": true,
+            "gitConf": true,
+            "githubActions": true,
+            "prettier": true,
+            "typescript": false,
+            "bundlewatch": false,
+            "backendTesting": false,
+            "editorConfig": true,
+            "styleci": true
+        }
     }
   },
   "require-dev": {
