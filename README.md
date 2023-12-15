@@ -1,4 +1,6 @@
-![Immagine-2021-05-12-172132](https://user-images.githubusercontent.com/79002016/118001360-f6862080-b346-11eb-9568-b151132cdaec.png)
+![news-feed](https://github.com/Litalino/flarum-ext-news-feed/assets/99712477/ff25e7dc-a523-436e-950e-d116778ca355)
+
+
 ![23](https://user-images.githubusercontent.com/79002016/118001364-f7b74d80-b346-11eb-806f-362bd84f9498.png)
 # NewsFeed
 
