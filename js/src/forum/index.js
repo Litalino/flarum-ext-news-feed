@@ -21,7 +21,7 @@ app.initializers.add('litalino/flarum-ext-news-feed', () => {
       const insert = m('div', { class: 'NewsFeed', id: 'divRss' }, [
         m('span', { class: 'NewsFeed_ul' }, [
           m('i', { class: 'fas fa-dove' }),
-          'News Feed by DanTri',
+          'News Feed',
         ]),
       ]);
       vdom.children.splice(1, 0, insert);
