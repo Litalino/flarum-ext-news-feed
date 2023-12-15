@@ -1,7 +1,6 @@
 ![news-feed](https://github.com/Litalino/flarum-ext-news-feed/assets/99712477/ff25e7dc-a523-436e-950e-d116778ca355)
 
-![news-feed-ad](https://github.com/Litalino/flarum-ext-news-feed/assets/99712477/f724df5b-adc7-4a06-886d-eba76aed5b57)
-
+![news-feed-ad](https://github.com/Litalino/flarum-ext-news-feed/assets/99712477/fcb361ca-cce8-4d6e-ba51-4dd9bcf3b31b)
 
 # NewsFeed
 
